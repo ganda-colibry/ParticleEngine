@@ -22,7 +22,6 @@ var Confetti = function(position) {
 }
 
 Confetti.prototype.constructor = Confetti;
-console.log(Particle());
 Confetti.prototype = new Particle();
 
 
