@@ -1,8 +1,3 @@
-
-$(function() {
-	main();
-});
-
 //Particle System
 var pSystems; 
 
