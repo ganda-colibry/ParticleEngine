@@ -1,3 +1,8 @@
+$(main());
+
+
+
+
 var Vector = function(x, y) {
 	this.x = x;
 	this.y = y;
@@ -292,15 +297,6 @@ var canvas;
 var context;
 
 
-//First function
-function main() {
-	//Initial setup
-	setup();
-
-
-	//Begin draw loop
-	window.requestAnimationFrame(draw);
-}
 
 //Initial setup
 function setup() {
@@ -332,5 +328,15 @@ function draw() {
 	}
 
 	//Repeat draw loop
+	window.requestAnimationFrame(draw);
+}
+
+//First function
+function main() {
+	//Initial setup
+	setup();
+
+
+	//Begin draw loop
 	window.requestAnimationFrame(draw);
 }
