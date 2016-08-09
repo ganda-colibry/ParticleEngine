@@ -20,10 +20,10 @@ var Confetti = function(position) {
 	this.height  = 30;
 
 }
-
+$(function() {
 Confetti.prototype.constructor = Confetti;
 Confetti.prototype = new Particle();
-
+});
 
 Confetti.prototype.update = function() {
 	//console.log(this);
