@@ -1,4 +1,4 @@
-var Particle = function() {
+function Particle() {
 
 
 	this.width = this.defaultSettings.width;
